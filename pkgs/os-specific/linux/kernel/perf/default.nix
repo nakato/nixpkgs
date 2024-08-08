@@ -176,6 +176,7 @@ stdenv.mkDerivation {
   meta = with lib; {
     homepage = "https://perf.wiki.kernel.org/";
     description = "Linux tools to profile with performance counters";
+    license = licenses.gpl2Only;
     mainProgram = "perf";
     maintainers = with maintainers; [ tobim ];
     platforms = platforms.linux;
